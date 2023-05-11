@@ -1619,8 +1619,6 @@ input.btn_char_women[type=radio]:checked + label:before{background:url("../img/p
 .base_area:after {content:'';clear:both;display:table;}
 .base_area800:after {content:'';clear:both;display:table;}
 
-
-
 #visual_box[class^=visual_1],#visual_box[class^=visual_2],#visual_box[class^=visual_3],#visual_box[class^=visual_4],#visual_box[class^=visual_5] {height:420px;background:#f1f4f5;}
 #visual_box.visual_icar {height: 1280px;background: url("../img/product/bg_visual_car.jpg") no-repeat center top #2cb26a;overflow:hidden;}
 /*#visual_box.visual_icar:before {content:'';display:block;max-width:1249px;width:100%;height:100%;position:absolute;left:50%;transform:translateX(-50%);border-left:1px solid #e6e6e6;}
