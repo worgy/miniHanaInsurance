@@ -3,6 +3,8 @@
 @import url("detail03.css");
 @import url("detail04.css");
 @import url("detail_dev.css");
+@import url("../common.css");
+@import url("../reset.css");
 
 $theransition:all .5s cubic-bezier(1,.25,0,.75) 0s;
 
