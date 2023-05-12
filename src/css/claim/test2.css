@@ -1,0 +1,20 @@
+.procedure{
+    display: block;
+    list-style-type:none;
+    width: 200px;
+    margin: 2px;
+}
+
+.procedure li{
+    position:relative;
+    border: solid 1px;
+    float: left;
+    width: 250px;
+    padding-top:23px; min-height:370px;
+
+    position:relative; float:left; width:22%; padding-top:23px; min-height:370px; border:solid 1px #ddd; text-align:center; font-size:15px; color:#656565;
+
+}
+
+.newstep_arr3 {display:block; overflow:hidden; width:100%; margin:38px 0 20px 0;}
+.newstep_arr3 > li {position:relative; float:left; width:22%; margin-right:4%; padding-top:23px; min-height:370px; border:solid 1px #ddd; text-align:center; font-size:15px; color:#656565;}

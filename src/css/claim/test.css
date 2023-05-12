@@ -1,0 +1,14 @@
+.newstep_arr3 {display:block; overflow:hidden; width:1000px; margin:38px 0 20px 0;}
+.newstep_arr3 > li {position:relative; float:left; width:250px; margin-right: 50px; padding-top:23px; min-height:370px; border:solid 1px #ddd; text-align:center; font-size:15px; color:#656565;}
+.newstep_arr3 .num{height:83px; text-align:center; font-weight:500; font-size:24px; color:#009591; margin:0 auto; padding:8px 0; margin-bottom:15px;}
+.newstep_arr3 .num strong{font-size:24px; color:#323333;}
+.newstep_arr3 .txt{margin:145px 8% 0 8%; padding:15px 0 26px 0; border-top:1px dashed #ddd; text-align:left; letter-spacing:-1px}
+.newstep_arr3 .btn{width:182px; text-align:center; padding-left:0; padding-right:0;}
+
+.newstep_arr3 li:before{position:absolute;content:'';display:block;right:-30px;top:50%;margin-top:-14px;width:17px;height:28px;background-repeat:no-repeat;background-position: right top;background-image:url("/images/icon_blue_round_right_arr.png");}
+
+.newstep_arr3 li{min-height:460px; box-sizing:border-box; display:inline-block;}
+.newstep_arr3 li:nth-child(1){background:url("/images/icon_reward_01.png") no-repeat center 110px;}
+.newstep_arr3 li:nth-child(2){background:url("/images/icon_reward_02.png") no-repeat center 110px;}
+.newstep_arr3 li:nth-child(3){background:url("/images/icon_reward_03.png") no-repeat center 110px;}
+.newstep_arr3 li:nth-child(4){background:url("/images/icon_reward_04.png") no-repeat center 110px;}
