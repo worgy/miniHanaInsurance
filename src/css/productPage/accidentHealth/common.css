@@ -3,6 +3,40 @@
 html, body{width:100%;height:100%;/*position:relative;*/}
 input:-webkit-autofill{-webkit-box-shadow:0 0 0 1000px #f0fefe inset;}
 
+
+/* 내가추가한거 */
+table {
+    border-spacing: 0;
+    width: 100%;
+}
+.mt50 {
+	/* 보장내용 */
+    margin-top: 50px !important;
+}
+.mt10 {
+	/* 보장내용 */
+    margin-top: 10px !important;
+}
+.fr {
+    float: right !important;
+}
+nav ul, li {
+    list-style: none;
+}
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+}
+body {
+    font-family: "Noto Sans KR";
+    /* font-weight: 400; */
+    font-size: 14px;
+    color: #555;
+    letter-spacing: -0.5px;
+    word-break: break-all;
+}
 /*Layout*/
 #wrap { position:relative;overflow-y:auto;overflow-x:hidden;height:100%;min-width:1024px;}
 #container{position:relative;width:100%;min-height:calc(100% - 240px);/*overflow:auto;*/}  /*ê²½ì˜ì´ë… ì´ì¤‘ ìŠ¤í¬ë¡¤ ì²˜ë¦¬ë¡œ ìˆ˜ì • í•œìœ¤ì„ 20190315*/
@@ -18,7 +52,7 @@ input:-webkit-autofill{-webkit-box-shadow:0 0 0 1000px #f0fefe inset;}
 
 /*LNB*/
 #lnb{width:200px;float:left;padding-top:30px;}
-#lnb h2{background:url("../img/bg_lnbtitle.png") no-repeat left top #009591;background-size:cover;width:100%;float:left;font-size:18px;text-align:center;line-height:64px;color:#fff;}
+#lnb h2{background:url("../../../images/productImg/accidentHealth/bg_lnbtitle.png") no-repeat left top #009591;background-size:cover;width:100%;float:left;font-size:18px;text-align:center;line-height:64px;color:#fff;}
 #lnb ul{float:left;width:100%}
 #lnb ul li{float:left;width:100%}
 #lnb ul li a{display:block;padding:12px;color:#333;}
@@ -36,8 +70,8 @@ input:-webkit-autofill{-webkit-box-shadow:0 0 0 1000px #f0fefe inset;}
 */
 /*sub visual title product*/
 #visual_box.visual_product{height:390px;background-color:#fff;background-size:cover;background-repeat:no-repeat;color:#fff;text-align:center;padding:80px 0 0;}
-#visual_box.visual_product.type1{background-image:url("./img/bg_type1.jpg");}
-#visual_box.visual_product.pig{background-image:url("./img/bg_product_pig.jpg");}
+#visual_box.visual_product.type1{background-image:url("../../images/productImg/accidentHealth/bg_type1.jpg");}
+#visual_box.visual_product.pig{background-image:url("../../images/productImg/accidentHealth/bg_product_pig.jpg");}
 #visual_box.visual_product .visual_box_in1205 {display:block;position:relative;margin:0 auto;max-width:1250px;width:100%;}
 #visual_box.visual_product .visual_box_in {display:block;margin:0 auto;max-width:1100px;width:100%;text-align:left}
 #visual_box.visual_product .visual_box_in .bule_text {padding-top:0;font-size:22px;color:#009591;font-weight:500;}
@@ -47,8 +81,8 @@ input:-webkit-autofill{-webkit-box-shadow:0 0 0 1000px #f0fefe inset;}
 #visual_box.visual_product .icon_linkbox a {display:inline-block;margin-left:10px;}
 #visual_box.visual_product .icon_linkbox a:first-child{margin-left:0}
 #visual_box.visual_product .icon_linkbox a span {border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;}
-#visual_box.visual_product .icon_linkbox .icon_twitter {width:32px;height:32px;background-image:url("./img/icon_twitter.png");}
-#visual_box.visual_product .icon_linkbox .icon_facebook {width:32px;height:32px;background-image:url("./img/icon_facebook.png");}
+#visual_box.visual_product .icon_linkbox .icon_twitter {width:32px;height:32px;background-image:url("../../images/productImg/accidentHealth/icon_twitter.png");}
+#visual_box.visual_product .icon_linkbox .icon_facebook {width:32px;height:32px;background-image:url("../../images/productImg/accidentHealth/icon_facebook.png");}
 .visual_product p{font-size:20px;padding-top:15px;}
 .visual_product ol, .visual_product ul{padding:39px 0;}
 .visual_product ol li, .visual_product ul li{display:inline-block;font-weight:300;font-size:18px;padding:0 5px;}
@@ -59,9 +93,14 @@ input:-webkit-autofill{-webkit-box-shadow:0 0 0 1000px #f0fefe inset;}
 .visual_btn_box .btn span {display:block;width:100%;text-align:left;}
 .visual_btn_box .btn span:before{font-family:"FontAwesome";position:absolute;display:inline-block;font-size:24px;right:17px;top:50%;color:#009591;}
 .visual_btn_box .btn span:before{content:"\f105";margin-top:-13px;}
-.visual_btn_box .btn.active, .visual_btn_box .btn:hover {color:#fff;border:1px solid #009591;background-color:#009591;background-image:url("../img/common/bg_btn_activelt.png"),url("../img/common/bg_btn_activetr.png");background-repeat:no-repeat, no-repeat;background-position:left top, right bottom;text-decoration:none;}
+.visual_btn_box .btn.active, .visual_btn_box .btn:hover {color:#fff;border:1px solid #009591;background-color:#009591;background-image:url("../../../images/productImg/accidentHealth/common/bg_btn_activelt.png"),url("../../../images/productImg/accidentHealth/common/bg_btn_activetr.png");background-repeat:no-repeat, no-repeat;background-position:left top, right bottom;text-decoration:none;}
 
 .btn.bg_red{background-color:#ec1b30;border-color:#ec1b30;}
+.f16 {
+    font-size: 16px !important;
+    margin-top: 54px !important;
+    margin-left: 15px !important;
+}
 
 /* #visual_box.visual_txt, */
 #visual_box.visual_txt.visual_consumer,
@@ -139,7 +178,7 @@ input:-webkit-autofill{-webkit-box-shadow:0 0 0 1000px #f0fefe inset;}
 #visual_box.visual_txtold.visual_terms p{font-weight: 400;color:#888;margin-top:20px;font-size:14px;text-align:center}
 
 /*ìƒí’ˆê°œë°œí”„ë¡œì„¸ìŠ¤ bg*/
-#visual_box.visual_txt.bg1{background-image:url("./img/consumer/consumer_bg1.jpg");}
+#visual_box.visual_txt.bg1{background-image:url("../../images/productImg/accidentHealth/consumer/consumer_bg1.jpg");}
 
 
 
@@ -273,7 +312,7 @@ input:-webkit-autofill{-webkit-box-shadow:0 0 0 1000px #f0fefe inset;}
 
 
 #visual_box.visual_company {/* background:url(../../../resources/web/img/visual/visual_company_bg.png) top center no-repeat */} /* íšŒì‚¬ì†Œê°œ */
-#visual_box.visual_company.bg2 {/*background-image:url('../img/visual/visual_company_bg2.png')*/} /* ë¸Œëžœë“œ */
+#visual_box.visual_company.bg2 {/*background-image:url('../../../images/productImg/accidentHealth/visual/visual_company_bg2.png')*/} /* ë¸Œëžœë“œ */
 #visual_box.visual_company.bg3 {/* background:url(../../../resources/web/img/visual/visual_company_bg.png) top center no-repeat */} /* ì‚¬íšŒê³µí—Œ */
 #visual_box.visual_recruit {/*background:url(../../../resources/web/img/visual/visual_company_bg.png) top center no-repeat*/} /* ì±„ìš© */
 
@@ -304,7 +343,7 @@ input:-webkit-autofill{-webkit-box-shadow:0 0 0 1000px #f0fefe inset;}
 .indicator_box > ul > li{float:left;border-left:1px solid rgba(255,255,255,0.3);}
 .indicator_box > ul > li:last-child{border-right:1px solid rgba(255,255,255,0.3);}
 .indicator_box > ul > li > a{display:block;color:#fff;font-size:17px;padding:12px 71px 13px 30px;position:relative;}
-.indicator_box > ul > li > a:after{content:"";display:block;position:absolute;width:21px;height:21px;margin-left:10px;top:15px;right:30px;background:url("../img/icon_indiPlus.png") no-repeat top left;}
+.indicator_box > ul > li > a:after{content:"";display:block;position:absolute;width:21px;height:21px;margin-left:10px;top:15px;right:30px;background:url("../../../images/productImg/accidentHealth/icon_indiPlus.png") no-repeat top left;}
 .indicator_box > ul > li ul{display:none;width:180px;position:absolute;top:0;left:0;}*/
 
 .breadcrumb{float:right;text-align:left;padding-top:23px;}
@@ -345,7 +384,7 @@ input:-webkit-autofill{-webkit-box-shadow:0 0 0 1000px #f0fefe inset;}
 .line_box{overflow:hidden;/*width:100%;float:left;*/border-width:1px;border-style:solid;border-color:#ddd;margin-top:16px;background:#f9f9f9;}  /* float ìˆ˜ì •  í•œìœ¤ì„ 20190310 */
 /* ìƒë‹´ë‚´ì—­ ìƒë‹¨ë°•ìŠ¤ */
 .line_boxnew {position:relative; overflow:hidden;background-color:#f4f4f4; min-height:112px; padding:30px 40px;}
-.line_boxnew .txt_list_01 {min-height: 50px; margin-top:0; padding-left:76px; background-image: url(./img/icon_phone1.png); background-repeat: no-repeat; background-position:left top;}
+.line_boxnew .txt_list_01 {min-height: 50px; margin-top:0; padding-left:76px; background-image: url(../../images/productImg/accidentHealth/icon_phone1.png); background-repeat: no-repeat; background-position:left top;}
 .line_boxnew .txt_list_01 li {font-size:15px; line-height:24px; color:#555;}
 
 .line_bold{border-width:2px;}
@@ -365,9 +404,9 @@ input:-webkit-autofill{-webkit-box-shadow:0 0 0 1000px #f0fefe inset;}
 .sel_tb .old_chk input[type=checkbox] + label:before{left: 12px; top: 8px;}
 .agree_box_new .calc240 {width: calc(100% - 240px);}
 input[type=radio].agree_chk + label {display: inline-block; z-index: 1; position: relative; cursor: pointer; margin-right: 10px; color: #555; border-width: 1px; border-style: solid; border-color: #ddd; border-radius: 20px; line-height: 20px; padding: 7px 20px 8px 40px; background: #fff; }
-input[type=radio].agree_chk + label:before { display: inline-block; background:url("./img/agree_chk_no.png") no-repeat left center; margin-top: 0; font-family: "FontAwesome"; width: 20px; height: 20px; font-size: 20px; color: #555; position: absolute; left: 14px; top: 6px;}
+input[type=radio].agree_chk + label:before { display: inline-block; background:url("../../images/productImg/accidentHealth/agree_chk_no.png") no-repeat left center; margin-top: 0; font-family: "FontAwesome"; width: 20px; height: 20px; font-size: 20px; color: #555; position: absolute; left: 14px; top: 6px;}
 input[type=radio].agree_chk:checked + label {border-color:#28b2a5;background:#28b2a5;color:#fff;}
-input[type=radio].agree_chk:checked + label:before {color:#fff; background:url("./img/agree_chk_yes.png") no-repeat left center;}
+input[type=radio].agree_chk:checked + label:before {color:#fff; background:url("../../images/productImg/accidentHealth/agree_chk_yes.png") no-repeat left center;}
 /* //ë™ì˜/ë¯¸ë™ì˜ */
 
 .pr50p {padding-right:50% !important}
@@ -410,14 +449,14 @@ input[type=radio].agree_chk:checked + label:before {color:#fff; background:url("
 .btn_icon i{color:#888;}
 
 .line_icon_box{position:relative;padding:25px;}/* í™©ê¸ˆë¼ì§€ 2019-03-05 ë””ìžì¸ê³ ë„í™” ìˆ˜ì • */
-.line_icon_box > p{background:url("./img/bg_icon1.png") no-repeat left center;padding-left:25px;margin-bottom:16px;font-size:15px;color:#222;}/* í™©ê¸ˆë¼ì§€ 2019-03-05 ë””ìžì¸ê³ ë„í™” ìˆ˜ì • */
+.line_icon_box > p{background:url("../../images/productImg/accidentHealth/bg_icon1.png") no-repeat left center;padding-left:25px;margin-bottom:16px;font-size:15px;color:#222;}/* í™©ê¸ˆë¼ì§€ 2019-03-05 ë””ìžì¸ê³ ë„í™” ìˆ˜ì • */
 .line_icon_box.oneline > p{top:18px;}
 
 /*step box back
 .step_box{width:100%;float:left;position:relative;margin-top:16px;}
 .step_box li{position:relative;float:left;border:2px solid #e2e2e2;text-align:center;border-top-left-radius:10px;padding:20px 10px;}
 .step_box li.active{border-color:#009591;border-bottom-color:#009591;}
-.step_box li:before{position:absolute;content:"";display:block;background:url("../img/icon_stepBg.gif") no-repeat center center;width:40px;height:22px;top:50%;left:-42px;margin-top:-11px;}
+.step_box li:before{position:absolute;content:"";display:block;background:url("../../../images/productImg/accidentHealth/icon_stepBg.gif") no-repeat center center;width:40px;height:22px;top:50%;left:-42px;margin-top:-11px;}
 .step_box li > p{width:100%;font-size:14px;color:#898989;margin-bottom:2px;}
 .step_box li > span{display:block;width:100%;font-size:16px;color:#898989;}
 .step_box li.active > span{color:#0077e7b;font-weight:500;}
@@ -429,7 +468,7 @@ input[type=radio].agree_chk:checked + label:before {color:#fff; background:url("
 .step_box li:last-child {border-bottom-right-radius:10px !important; }
 .step_box li.active{ background:#009591;border:2px solid #009591;}
 .step_box li.active p {color:#fff;}
-.step_box li:before{position:absolute;content:"";display:block;background:url("./img/icon_stepBg.gif") no-repeat center center;width:40px;height:22px;top:50%;left:-42px;margin-top:-11px;}
+.step_box li:before{position:absolute;content:"";display:block;background:url("../../images/productImg/accidentHealth/icon_stepBg.gif") no-repeat center center;width:40px;height:22px;top:50%;left:-42px;margin-top:-11px;}
 .step_box li > p{width:100%;font-size:16px; color:#8a8a8a; margin-bottom:2px;}
 .step_box li > span{display:block;width:100%;font-size:16px;color:#898989;}
 .step_box li.active > span{color:#fff;font-weight:500;}
@@ -493,7 +532,7 @@ input[type=radio].agree_chk:checked + label:before {color:#fff; background:url("
 .txt_step_box li div{margin:0 auto;border:1px solid #e7e7e7;border-radius:50%;width:130px;height:130px;padding-top: 42px;background: #fff;}
 .txt_step_box li div strong{display:block;width:100%;color:#009591;font-size: 14px;font-weight:400;}
 .txt_step_box li div span{display:block;width:100%;padding-top:5px;font-size: 15px;}
-.txt_step_box li:after{position:absolute;content:"";display:block;background:url('./img/icon_cardstepBg.png') no-repeat center center;width:11px;height:19px;top: 50%;right: -6px;margin-top: -8.5px;}
+.txt_step_box li:after{position:absolute;content:"";display:block;background:url('../../images/productImg/accidentHealth/icon_cardstepBg.png') no-repeat center center;width:11px;height:19px;top: 50%;right: -6px;margin-top: -8.5px;}
 .txt_step_box li:last-child:after{background:none;}
 
 
@@ -1135,8 +1174,8 @@ td .txt_list_01, td .txt_list_01, td .txt_box_01{margin-top:0px;}
 
 /* > type*/
 .icon5 li, .unit_icon5{padding-left:20px;}
-.icon5 li:before, .unit_icon5:before{content:"";top:8px;width:13px;height:13px;background:url("./img/bg_bul_arrow.png") no-repeat left center;}
-.icon1 li .icon5 li:before, .icon2 li .icon5 li:before, .icon3 li .icon5 li:before, .icon4 li .icon5 li:before{content:"";top:8px;width:13px;height:13px;background:url("../img/product/bg_bul_arrow.png") no-repeat left center;}
+.icon5 li:before, .unit_icon5:before{content:"";top:8px;width:13px;height:13px;background:url("../../images/productImg/accidentHealth/bg_bul_arrow.png") no-repeat left center;}
+.icon1 li .icon5 li:before, .icon2 li .icon5 li:before, .icon3 li .icon5 li:before, .icon4 li .icon5 li:before{content:"";top:8px;width:13px;height:13px;background:url("../../../images/productImg/accidentHealth/product/bg_bul_arrow.png") no-repeat left center;}
 
 
 .txt_list_btn li span{line-height:28px;}
@@ -1153,7 +1192,7 @@ td .txt_list_01, td .txt_list_01, td .txt_box_01{margin-top:0px;}
 
 /*call icon*/
 .text_cont_box .tcb_list1 li.call_icon{padding-left:25px}
-.text_cont_box .tcb_list1 li.call_icon:before{content:"";top: 0;width: 20px;height: 28px;background:url("../img/benefit/icon_phone.png") no-repeat left center;}
+.text_cont_box .tcb_list1 li.call_icon:before{content:"";top: 0;width: 20px;height: 28px;background:url("../../../images/productImg/accidentHealth/benefit/icon_phone.png") no-repeat left center;}
 
 /*buttoun box*/
 .btn_box{width:100%;float:left;margin-top:40px;}/* í™©ê¸ˆë¼ì§€ 2019-03-05 ë””ìžì¸ê³ ë„í™” ìˆ˜ì • */
@@ -1204,7 +1243,7 @@ td .txt_list_01, td .txt_list_01, td .txt_box_01{margin-top:0px;}
 .btn_mouse{color:#fff;background-color:#868c93;border-color:#868c93;padding:5px 10px 7px;font-size:14px}
 .btn_mouse.on{color:#fff;background-color:#009591;border-color:#009591;padding:5px 10px 7px;font-size:14px}
 .btn_mouse span{display:inline-block;position:relative;padding-left:20px;}
-.btn_mouse span:before{content:"";display:inline-block;position:absolute;top:2px;left:0;width:13px;height:18px;background:url("../img/icon_mouse.png") no-repeat center center;}
+.btn_mouse span:before{content:"";display:inline-block;position:absolute;top:2px;left:0;width:13px;height:18px;background:url("../../../images/productImg/accidentHealth/icon_mouse.png") no-repeat center center;}
 .btn_mouse.on, .btn_mouse:hover{color:#fff;background-color:#009591;border-color:#009591;padding:5px 10px 7px;font-size:14px}
 
 /*txt + btn type*/
@@ -1239,7 +1278,7 @@ div.img_view  {position:absolute; right:10px; bottom:10px; width:140px}
 .base_tb_hover tbody  tr td a:hover {color: #009591 !important; text-decoration:underline;}
 /* //í…Œì´ë¸” hover ì´ê²½ë¯¼ 2019-04-29 */
 .base_tb.board_tb.chbox input[type=checkbox] + label:before{left:8px;top:-8px;}
-.base_tb.board_tb .notice {display:inline-block;width:32px;height:20px;background:url("./img/icon_notice.png") no-repeat;text-indent:-999999px;}
+.base_tb.board_tb .notice {display:inline-block;width:32px;height:20px;background:url("../../images/productImg/accidentHealth/icon_notice.png") no-repeat;text-indent:-999999px;}
 .base_tb.board_tb .notice_tr td:nth-child(2) a {font-weight:500;font-size:15px;color:#009591;}
 
 
@@ -1269,7 +1308,7 @@ div.img_view  {position:absolute; right:10px; bottom:10px; width:140px}
 .board_read_cont > div{width:100%;min-height:300px;white-space:pre-line;font-weight:400;font-size:15px;color:#555;line-height:24px;}
 .board_read_cont > p{position:absolute;bottom:20px;}
 .board_read_cont > p > a {font-weight:400;font-size:15px;color:#555;}
-.board_read_cont > p > a:before {content:"";display:inline-block;width:20px;height:20px;background:url("../img/common/icon_fileup.jpg") no-repeat;vertical-align:-4px;margin-right:7px;}
+.board_read_cont > p > a:before {content:"";display:inline-block;width:20px;height:20px;background:url("../../../images/productImg/accidentHealth/common/icon_fileup.jpg") no-repeat;vertical-align:-4px;margin-right:7px;}
 /* í™©ê¸ˆë¼ì§€ ì´ìœ ì„­ 2019-03-06 ìˆ˜ì •ë */
 .board_read_event {width:100%;float:left;border:1px solid #e5e5e5;} 
 .board_read_event h4 {font-weight:400;font-size:30px;color:#333;position:relative;}
@@ -1277,11 +1316,11 @@ div.img_view  {position:absolute; right:10px; bottom:10px; width:140px}
 .board_read_event .cong {padding:0 200px;text-align:center;}
 .board_read_event .cong > div:after {content:"";clear:both;display:table;}
 .board_read_event .cong1 {padding:0 0 0 37.340619%;position:relative;}
-.board_read_event .cong1 h4:before {content:"";width:113px;height:108px;background:url("../img/benefit/bg_cong1.png") no-repeat center center;position:absolute;top:0;left:-120px;}
+.board_read_event .cong1 h4:before {content:"";width:113px;height:108px;background:url("../../../images/productImg/accidentHealth/benefit/bg_cong1.png") no-repeat center center;position:absolute;top:0;left:-120px;}
 .board_read_event .cong2 {padding:0 0 0 37.340619%;position:relative;}
-.board_read_event .cong2 h4:before {content:"";width:113px;height:108px;background:url("../img/benefit/bg_cong2.png") no-repeat center center;position:absolute;top:0;left:-120px;}
+.board_read_event .cong2 h4:before {content:"";width:113px;height:108px;background:url("../../../images/productImg/accidentHealth/benefit/bg_cong2.png") no-repeat center center;position:absolute;top:0;left:-120px;}
 .board_read_event .cong3 {padding:0 0 0 37.340619%;position:relative;}
-.board_read_event .cong3 h4:before {content:"";width:113px;height:108px;background:url("../img/benefit/bg_cong3.png") no-repeat center center;position:absolute;top:0;left:-120px;}
+.board_read_event .cong3 h4:before {content:"";width:113px;height:108px;background:url("../../../images/productImg/accidentHealth/benefit/bg_cong3.png") no-repeat center center;position:absolute;top:0;left:-120px;}
 /* í™©ê¸ˆë¼ì§€ ì´ìœ ì„­ 2019-03-06 ìˆ˜ì •ì‹œìž‘ */
 .board_read_foot{margin-top:40px;border-top:1px solid #868686;}
 .board_read_foot li{border-bottom:1px solid #ddd;position:relative;}
@@ -1302,7 +1341,7 @@ div.img_view  {position:absolute; right:10px; bottom:10px; width:140px}
 /*board img list type*/
 .board_img_list {width:100%;float:left;border-top:2px solid #555555;}
 .board_img_list > li {position:relative;width:100%;float:left;border-bottom:1px solid #e5e5e5;padding:26px;height:384px;}
-.board_img_list > li .images_box {width:100%;position:relative; background:#f5f5f5 url("../img/common/bg_noimage.png") no-repeat center center;/*border-bottom:1px solid #f5f5f5; */}
+.board_img_list > li .images_box {width:100%;position:relative; background:#f5f5f5 url("../../../images/productImg/accidentHealth/common/bg_noimage.png") no-repeat center center;/*border-bottom:1px solid #f5f5f5; */}
 .board_img_list > li .images_box:before {content:"";display:block;padding-top:167px;}
 .board_img_list > li .images_box img {display:block;width:100%;}
 #ulEventList.board_img_list > li .images_box img {max-width:498px;height: 100%;overflow:hidden;}
@@ -1357,7 +1396,7 @@ div.img_view  {position:absolute; right:10px; bottom:10px; width:140px}
 .map_box .marker.off2{width:24px;height:24px;left:40%;}
 .map_box .map_tooltip_wrap{position:relative;bottom:106px;height:0;}
 .map_box .map_tooltip{position:relative;padding:0px 20px;border-radius:5px;border:2px solid #009591;background:#fff;}
-.map_box .map_tooltip:after{content:"";position:absolute;display:block;width:14px; height:9px; bottom:-9px;left:50%;margin-left:-7px;background:url("../img/icon_tooltipbg1.png") no-repeat center center;}
+.map_box .map_tooltip:after{content:"";position:absolute;display:block;width:14px; height:9px; bottom:-9px;left:50%;margin-left:-7px;background:url("../../../images/productImg/accidentHealth/icon_tooltipbg1.png") no-repeat center center;}
 .map_box .map_tooltip > p{font-size:16px;color:#333;padding:15px 0;font-weight:500;}
 .map_box .map_tooltip > ul{border-top:1px solid #e5e5e5;position:relative;padding:8px 0 16px;width:100%;}
 .map_box .map_tooltip > ul li{width:100%;margin-top:5px;float:left;}
@@ -1367,7 +1406,7 @@ div.img_view  {position:absolute; right:10px; bottom:10px; width:140px}
 .map_box .map_tooltip > a{position:absolute;top:19px;right:20px;}
 .map_box .map_tooltip2_wrap {bottom:32px;position:relative;width:320px;}
 .map_box .map_tooltip2{position:absolute;bottom:9px;padding:0px 20px;border-radius:5px;border:2px solid #009591;background:#fff;width:320px;float:left;}
-.map_box .map_tooltip2:after{content:"";position:absolute;display:block;width:14px;height:9px;bottom:-9px;left:50%;margin-left:-7px;background:url("../img/icon_tooltipbg1.png") no-repeat center center;}
+.map_box .map_tooltip2:after{content:"";position:absolute;display:block;width:14px;height:9px;bottom:-9px;left:50%;margin-left:-7px;background:url("../../../images/productImg/accidentHealth/icon_tooltipbg1.png") no-repeat center center;}
 .map_box .map_tooltip2 > p{font-size:16px;color:#333;padding:15px 0;font-weight:500;width:100%;float:left;}
 .map_box .map_tooltip2 > ul{border-top:1px solid #e5e5e5;position:relative;padding:8px 0 15px;width:100%;float:left;}
 .map_box .map_tooltip2 > ul li{width:100%;margin-top:5px;float:left;}
@@ -1386,7 +1425,7 @@ div.img_view  {position:absolute; right:10px; bottom:10px; width:140px}
 .map_result_list li div > a:hover,.map_result_list li div > a:focus {border-color:#009591;background-color:#009591;color:#fff;}
 
 .map_result_list li span{display:block;color:#555;float:left;margin-bottom:4px;width:100%;}
-.map_result_list li span.num{position:absolute;background:url("../img/bg_iconMap3.png") no-repeat center center;width:24px;height:24px;left:25px;top:18px;text-align:center;line-height:22px;color:#fff;margin-bottom:0;}
+.map_result_list li span.num{position:absolute;background:url("../../../images/productImg/accidentHealth/bg_iconMap3.png") no-repeat center center;width:24px;height:24px;left:25px;top:18px;text-align:center;line-height:22px;color:#fff;margin-bottom:0;}
 .map_result_list li span.tit{padding-left:30px;font-size:16px;color:#333;}
 .map_result_list li span.tel{float:left;width:50%;padding-right:20px;max-width:145px; line-height: 19px;}
 .map_result_box .page_list_box{height:58px;overflow:hidden;position: absolute;bottom: 0;right: 0;}
@@ -1394,12 +1433,12 @@ div.img_view  {position:absolute; right:10px; bottom:10px; width:140px}
 .map_result_list li:hover{background:#f2fbfd;cursor:pointer;}
 .map_result_list li.active {background:#f2fbfd;}
 .map_result_list li:hover span.tit, .map_result_list li.active span.tit{color:#009591;font-weight:500}
-.map_result_list li:hover span.num, .map_result_list li.active span.num{background:url("../img/bg_iconMap4.png") no-repeat top center;height:30px;}
+.map_result_list li:hover span.num, .map_result_list li.active span.num{background:url("../../../images/productImg/accidentHealth/bg_iconMap4.png") no-repeat top center;height:30px;}
 
 .map_no_data{width:100%;text-align:center;padding:60px;}
 
 /*ì ‘ìˆ˜ì™„ë£Œ*/
-.complete_box{float:left;width:100%;padding:180px 0 30px 0;text-align:center;background:url("../img/icon_bigcheck.jpg") no-repeat top center;background-position-y:40px;} 
+.complete_box{float:left;width:100%;padding:180px 0 30px 0;text-align:center;background:url("../../../images/productImg/accidentHealth/icon_bigcheck.jpg") no-repeat top center;background-position-y:40px;} 
 .complete_box > p{font-size:36px;font-weight:500;color:#333;}
 .complete_box > span{display:inline-block;width:100%;font-size:16px;padding-top:20px;}
 .complete_box .btn{margin-left:8px;}
@@ -1427,8 +1466,8 @@ div.img_view  {position:absolute; right:10px; bottom:10px; width:140px}
 /*selectbox*/
 .selectbox_link {position:absolute;top:40px;right:20px;height:40px;min-width:220px;}
 .selectbox_link .tit {display:block; background-color:#ffffff;border:1px solid #ddd;}
-.selectbox_link .tit a {display:block;padding:5px 25px 5px 10px;line-height:30px;text-decoration:none;background:url('../img/icon_selectDown.png') no-repeat right center;}
-.selectbox_link.on .tit a{background:url('../img/icon_selectUp.png') no-repeat right center;}
+.selectbox_link .tit a {display:block;padding:5px 25px 5px 10px;line-height:30px;text-decoration:none;background:url('../../../images/productImg/accidentHealth/icon_selectDown.png') no-repeat right center;}
+.selectbox_link.on .tit a{background:url('../../../images/productImg/accidentHealth/icon_selectUp.png') no-repeat right center;}
 .selectbox_link ul.selectbox_link_list {display:none;position:absolute;left:0;right:0;bottom:39px;background-color:#ffffff;border:1px solid #ddd;}
 .selectbox_link ul.selectbox_link_list li {float:none;}
 .selectbox_link ul.selectbox_link_list li a {display:block;padding:5px 10px;letter-spacing:1px;text-decoration:none;font-size:13px;letter-spacing:-0.1px;}
@@ -1472,7 +1511,7 @@ body .datepicker-panel>ul>li.picked, .datepicker-panel>ul>li.picked:hover {
 
 .section_box0.bg_01 {background:#fff;}
 
-#mcontainer {background:url("../img/policy/bg_main.jpg") no-repeat;background-size:cover;background-attachment:fixed;}
+#mcontainer {background:url("../../../images/productImg/accidentHealth/policy/bg_main.jpg") no-repeat;background-size:cover;background-attachment:fixed;}
 #mheader {width:100%;max-width:1100px;margin:auto;}
 #mheader .mlogo {padding-top:80px;padding-bottom:40px;}
 #mheader .mlogo h1 {}
@@ -1487,7 +1526,7 @@ body .datepicker-panel>ul>li.picked, .datepicker-panel>ul>li.picked:hover {
 .btn_trankey{color:#868c93;background-color:#868c93;border-color:#868c93;font-size:14px;height:34px;padding:0}
 .btn_trankey.on{background-color:#009591;border-color:#009591}
 .btn_trankey label{display:inline-block;color:#fff;position:relative;cursor:pointer;padding:5px 10px 7px 25px;}
-.btn_trankey label:before{content:"";display:inline-block;position:absolute;top:7px;left:5px;width:13px;height:18px;background:url("../img/icon_mouse.png") no-repeat center center;}
+.btn_trankey label:before{content:"";display:inline-block;position:absolute;top:7px;left:5px;width:13px;height:18px;background:url("../../../images/productImg/accidentHealth/icon_mouse.png") no-repeat center center;}
 
 /*main*/
 .mbanner .owl-carousel .owl-item img {max-width:373px; max-height:219px; min-width:373px; min-height:219px;}
@@ -1543,7 +1582,7 @@ body .datepicker-panel>ul>li.picked, .datepicker-panel>ul>li.picked:hover {
 /*2020-06-23ì¶”ê°€ ê¸ˆìš©ì†Œë¹„ìžë³´í˜¸ í—Œìž¥ ë³¸ë¬¸*/
 .charter_box{background:#f9f9fb;padding: 60px 40px;width:100%;float:left;}
 .charter_box > div{float:left;width:100%;}
-.charter_box .cb_head{background: url("../img/consumer/bg_charter.jpg") no-repeat calc(100% - -9px) 10px;}
+.charter_box .cb_head{background: url("../../../images/productImg/accidentHealth/consumer/bg_charter.jpg") no-repeat calc(100% - -9px) 10px;}
 .charter_box .cb_head > span{font-size: 20px;display:block;margin-top:25px;font-weight: 400;color:#333;}
 .charter_box .cb_head > strong{font-size:36px;color:#333;line-height: 46px;display: block;margin-top: 10px;}
 .charter_box .cb_body{background:#fff;border-radius: 15px;margin-top: 40px;padding: 20px;}
@@ -1554,8 +1593,8 @@ body .datepicker-panel>ul>li.picked, .datepicker-panel>ul>li.picked:hover {
 .charter_box .cb_body > ul > li.cb_list1 h3{color: #333;}
 .charter_box .cb_body > ul > li.cb_list1 h3 strong{background: #f0f8f8;color: #009591;}
 
-.new_download{display: inline-block;width:15px;height:13px;background: url("../img/img_download.png") no-repeat center center;font-size:0;vertical-align: middle;}
-.new_download:hover{background: url("../img/img_download_on.png") no-repeat center center;}
+.new_download{display: inline-block;width:15px;height:13px;background: url("../../../images/productImg/accidentHealth/img_download.png") no-repeat center center;font-size:0;vertical-align: middle;}
+.new_download:hover{background: url("../../../images/productImg/accidentHealth/img_download_on.png") no-repeat center center;}
 .section_box1.t_search tbody tr td:nth-child(3){/* text-overflow:ellipsis; *//* white-space:nowrap; */overflow:hidden;text-align:left;}
 .section_box1.t_search tbody tr td:nth-child(3) a{cursor:text;font-weight:400;}
 .section_box1.t_search tbody tr td:nth-child(3) a:hover{text-decoration:none;}

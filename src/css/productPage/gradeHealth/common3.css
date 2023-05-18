@@ -1,0 +1,197 @@
+@charset "utf-8";
+@import url("../reset.css");
+@import url("../common.css");
+/*sub visual title product*/
+#visual_box.visual_product{height:390px;background-color:#fff;background-size:cover;background-repeat:no-repeat;color:#fff;text-align:center;padding:80px 0 0;}
+#visual_box.visual_product.type1{background-image:url("../img/product/bg_type1.jpg");}
+#visual_box.visual_product.pig{background-image:url("../img/product/bg_product_pig.jpg");}
+#visual_box.visual_product .visual_box_in1205 {display:block;position:relative;margin:0 auto;max-width:1250px;width:100%;}
+#visual_box.visual_product .visual_box_in {display:block;margin:0 auto;max-width:1100px;width:100%;text-align:left}
+#visual_box.visual_product .visual_box_in .bule_text {padding-top:0;font-size:22px;color:#009591;font-weight:500;}
+#visual_box.visual_product .visual_box_in h2, #visual_box.visual_product .visual_box_in .h2_v {margin-top:0px;}
+#visual_box.visual_product h2, .h2_v{font-size:48px;font-weight:500;position:static;margin-top:20px;color:#fff;height:auto;max-width:none;line-height:normal;transform:none;background:none;}
+#visual_box.visual_product .icon_linkbox {position:absolute;top:0px;right:0;width:78px;}
+#visual_box.visual_product .icon_linkbox a {display:inline-block;margin-left:10px;}
+#visual_box.visual_product .icon_linkbox a:first-child{margin-left:0}
+#visual_box.visual_product .icon_linkbox a span {border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;}
+#visual_box.visual_product .icon_linkbox .icon_twitter {width:32px;height:32px;background-image:url("../img/common/icon_twitter.png");}
+#visual_box.visual_product .icon_linkbox .icon_facebook {width:32px;height:32px;background-image:url("../img/common/icon_facebook.png");}
+#visual_box.visual_product .visual_box_in .visual_btn_box{margin-top:40px;font-size:18px;}
+#visual_box.visual_txt.visual_consumer,
+#visual_box.visual_txt.visual_creditConsumer,
+#visual_box.visual_txt.visual_finaneConsumer,
+#visual_box.visual_txt.visual_disclosure,
+#visual_box.visual_txt.visual_carDisclosure,
+#visual_box.visual_txt.visual_manageDisclosure,
+#visual_box.visual_txt.visual_productDisclosure,
+#visual_box.visual_txt.visual_protectDisclosure,
+#visual_box.visual_txt.visual_priceDisclosure,
+#visual_box.visual_txt.visual_policy,
+#visual_box.visual_txt.visual_terms,
+#visual_box.visual_txtold.visual_policy,
+#visual_box.visual_txtold.visual_terms{height:130px;background-size:cover;background-repeat:no-repeat;color:#000;text-align:center;padding:30px 15px;}
+
+/* #visual_box.visual_txt h2, */
+#visual_box.visual_txt.visual_consumer h2,
+#visual_box.visual_txt.visual_creditConsumer h2,
+#visual_box.visual_txt.visual_finaneConsumer h2,
+#visual_box.visual_txt.visual_disclosure h2,
+#visual_box.visual_txt.visual_carDisclosure h2,
+#visual_box.visual_txt.visual_manageDisclosure h2,
+#visual_box.visual_txt.visual_productDisclosure h2,
+#visual_box.visual_txt.visual_protectDisclosure h2,
+#visual_box.visual_txt.visual_priceDisclosure h2,
+#visual_box.visual_txt.visual_policy h2,
+#visual_box.visual_txt.visual_terms h2,
+#visual_box.visual_txtold.visual_policy h2,
+#visual_box.visual_txtold.visual_terms h2 {margin-left:0;font-size:36px;font-weight: 500;width:100%;color:#000;height:auto;line-height:normal;background:none;position: relative;text-align:center;}
+/* #visual_box.visual_txt .h2_v, */
+#visual_box.visual_txt.visual_consumer .h2_v,
+#visual_box.visual_txt.visual_creditConsumer .h2_v,
+#visual_box.visual_txt.visual_finaneConsumer .h2_v,
+#visual_box.visual_txt.visual_disclosure .h2_v,
+#visual_box.visual_txt.visual_carDisclosure .h2_v,
+#visual_box.visual_txt.visual_manageDisclosure .h2_v,
+#visual_box.visual_txt.visual_productDisclosure .h2_v,
+#visual_box.visual_txt.visual_protectDisclosure .h2_v,
+#visual_box.visual_txt.visual_priceDisclosure .h2_v,
+#visual_box.visual_txt.visual_policy .h2_v,
+#visual_box.visual_txt.visual_terms .h2_v,
+#visual_box.visual_txtold.visual_policy .h2_v,
+#visual_box.visual_txtold.visual_terms .h2_v {margin-left:0;font-size:36px;font-weight: 500;width:100%;color:#000;height:auto;line-height:48px;background:none;position: relative;text-align:center;}
+
+
+/* #visual_box.visual_txt  h2:before, */
+#visual_box.visual_txt.visual_consumer h2:before,
+#visual_box.visual_txt.visual_creditConsumer h2:before,
+#visual_box.visual_txt.visual_finaneConsumer h2:before,
+#visual_box.visual_txt.visual_disclosure h2:before,
+#visual_box.visual_txt.visual_carDisclosure h2:before,
+#visual_box.visual_txt.visual_manageDisclosure h2:before,
+#visual_box.visual_txt.visual_productDisclosure h2:before,
+#visual_box.visual_txt.visual_protectDisclosure h2:before,
+#visual_box.visual_txt.visual_priceDisclosure h2:before,
+#visual_box.visual_txt.visual_policy h2:before,
+#visual_box.visual_txt.visual_terms h2:before,
+#visual_box.visual_txtold.visual_policy h2:before,
+#visual_box.visual_txtold.visual_terms h2:before{content:"";display:block;position:absolute;width:30px;height:1px;background:#bfbfbf;left:50%;margin-left:-15px;top:56px;}
+
+/* #visual_box.visual_txt p, */
+#visual_box.visual_txt.visual_consumer p,
+#visual_box.visual_txt.visual_creditConsumer p,
+#visual_box.visual_txt.visual_finaneConsumer p,
+#visual_box.visual_txt.visual_disclosure p,
+#visual_box.visual_txt.visual_carDisclosure p,
+#visual_box.visual_txt.visual_manageDisclosure p,
+#visual_box.visual_txt.visual_productDisclosure p,
+#visual_box.visual_txt.visual_protectDisclosure p,
+#visual_box.visual_txt.visual_priceDisclosure p,
+#visual_box.visual_txt.visual_policy p,
+#visual_box.visual_txt.visual_terms p,
+#visual_box.visual_txtold.visual_policy p,
+#visual_box.visual_txtold.visual_terms p{font-weight: 400;color:#888;margin-top:20px;font-size:14px;text-align:center}
+
+/*상품개발프로세스 bg*/
+#visual_box.visual_txt.bg1{background-image:url("../img/consumer/consumer_bg1.jpg");}
+#visual_box.visual_txt{
+	background:none !important;
+	padding-top:66px;
+	height:172px;
+}
+#visual_box.visual_txt h2{
+	font-weight:500;font-size:42px;color:#000;
+}
+#visual_box.visual_txt h2:after{
+	content:"";width:30px;height:1px;background:#bfbfbf;display:block;margin:10px auto 16px;
+
+}
+#visual_box.visual_txt p{
+	font-weight:400;font-size:14px;color:#888;
+}
+
+#visual_box .visual_mtitle {margin-top:17px;font-weight:500;font-size:22px;color:#009591;letter-spacing:-1px;}
+#visual_box .visual_btitle {margin-top:-5px;font-weight:500;font-size:48px;color:#333;letter-spacing:-3px;}
+
+#visual_box.visual_txt{float:none;width:100%;height:130px;margin:0 auto;max-width:1140px;padding:40px 0 15px;}
+#visual_box.visual_txt:after{content:"";clear:both;display:table;}
+#visual_box.visual_txt h2{display:block;text-align:left;font-weight:500;font-size:32px;color:#000;margin-left:20px;width:auto;position:static;}
+#visual_box.visual_txt h2:before{content:"";width:100%;width:calc(100% - 40px);*height:2px;background:#000;position:absolute;bottom:0;left:0;}
+#visual_box.visual_txt p{display:block;text-align:left;font-weight:400;font-size:14px;color:#888;margin-top:0;margin-left:20px;width:auto;position:relative;}
+
+#visual_box.visual_company,
+#visual_box.visual_company.bg2,
+#visual_box.visual_company.bg3,
+#visual_box.visual_recruit{width:100%;max-width:100%;float:left;position:relative;height:140px;background-size:cover;background-repeat:no-repeat;color:#fff;text-align:center;padding:30px 15px;}
+
+#visual_box.visual_company h2,
+#visual_box.visual_company.bg2 h2,
+#visual_box.visual_company.bg3 h2
+#visual_box.visual_recruit h2{display:block;text-align:center;font-weight:500;font-size:32px;color:#000;margin-left:00px;width:auto;position:relative;} 
+#visual_box.visual_company h2:before,
+#visual_box.visual_company.bg2 h2:before,
+#visual_box.visual_company.bg3 h2:before {content:"";display:block;position:absolute;width:30px;height:1px;background:#bfbfbf;left:50%;margin-left:-15px;top:54px;}
+#visual_box.visual_company p,
+#visual_box.visual_company.bg2 p,
+#visual_box.visual_company.bg3 p,
+#visual_box.visual_recruit p {display:block;text-align:center;font-weight:400;font-size:14px;color:#888;margin-top:18px;margin-left:0px;width:auto;position:relative;}
+
+#visual_box.visual_txtold{height:200px;background-size:cover;background-repeat:no-repeat;color:#fff;text-align:center;padding-top:54px;}
+#visual_box.visual_txtold h2, .h2_v{font-size:36px;font-weight:300;width:100%;margin-top:0px;color:#fff;height:auto;line-height:normal;background:none;position: relative;}
+#visual_box.visual_txtold h2:after{content:"";display:block;/*position:absolute;width:12px;height:2px;background:#fff;left:50%;margin-left:-6px;bottom:-13px;*/}
+#visual_box.visual_txtold p{color:#fff;margin-top:6px;font-size:15px;}
+
+/* common 이동할 부분 */
+#visual_box.visual_common {background:url(../../../resources/web/img/visual/visual_common_bg.jpg) top right no-repeat} /* 공통 */
+
+#visual_box.visual_product {background:url(../../../resources/web/img/visual/visual_product_bg.jpg) top right no-repeat} /* 보험상품 */
+
+#visual_box.visual_benefit {background:url(../../../resources/web/img/visual/visual_benefit_bg.jpg) top right no-repeat} /* 혜택 */
+#visual_box.visual_event {background:url(../../../resources/web/img/visual/visual_event_bg.jpg) top right no-repeat} /* evet */
+#visual_box.visual_lounge {background:url(../../../resources/web/img/visual/visual_lounge_bg.jpg) top right no-repeat} /* evet */
+#visual_box.visual_membership {background:url(../../../resources/web/img/visual/visual_membership_bg.jpg) top right no-repeat} /* evet */
+#visual_box.visual_partnershipCard {background:url(../../../resources/web/img/visual/visual_partnershipCard_bg.jpg) top right no-repeat} /* evet */
+
+#visual_box.visual_service {background:url(../../../resources/web/img/visual/visual_service_bg.jpg) top right no-repeat} /* 보상 */
+#visual_box.visual_carReward {background:url(../../../resources/web/img/visual/visual_carReward_bg.jpg) top right no-repeat} /* 보상 */
+#visual_box.visual_educarService {background:url(../../../resources/web/img/visual/visual_educarService_bg.jpg) top right no-repeat} /* 보상 */
+#visual_box.visual_healthReward {background:url(../../../resources/web/img/visual/visual_healthReward_bg.jpg) top right no-repeat} /* 보상 */
+#visual_box.visual_rewardCenterInfo {background:url(../../../resources/web/img/visual/visual_rewardCenterInfo_bg.jpg) top right no-repeat} /* 보상 */
+#visual_box.visual_rewardGuide {background:url(../../../resources/web/img/visual/visual_rewardGuide_bg.jpg) top right no-repeat} /* 보상 */
+
+#visual_box.visual_myeducar {background:url(../../../resources/web/img/visual/visual_myeducar_bg.jpg) top right no-repeat} /* 마이에듀카 */
+#visual_box.visual_certification {background:url(../../../resources/web/img/visual/visual_certification_bg.jpg) top right no-repeat} /* 예상해지환급금증명서 */
+#visual_box.visual_conclusionManage {background:url(../../../resources/web/img/visual/visual_conclusionManage_bg.jpg) top right no-repeat} /* 예상해지환급금증명서 */
+#visual_box.visual_contractManage {background:url(../../../resources/web/img/visual/visual_contractManage_bg.jpg) top right no-repeat} /* 마이에듀카 */
+#visual_box.visual_inspayRefunds {background:url(../../../resources/web/img/visual/visual_inspayRefunds_bg.jpg) top right no-repeat} /* 마이에듀카 */
+#visual_box.visual_loanRepayment {background:url(../../../resources/web/img/visual/visual_loanRepayment_bg.jpg) top right no-repeat} /* 마이에듀카 */
+#visual_box.visual_mypage {background:url(../../../resources/web/img/visual/visual_mypage_bg.jpg) top right no-repeat} /* 마이에듀카 */
+
+#visual_box.visual_customer {background:url(/static/resources/web/img/visual/visual_customer_bg.jpg?20211130) top right no-repeat} /* 고객센터 */
+#visual_box.visual_counselInquiry {background:url(../../../resources/web/img/visual/visual_counselInquiry_bg.jpg) top right no-repeat} /* 고객센터 */
+
+#visual_box.visual_logincenter {background:url(../../../resources/web/img/visual/visual_logincenter_bg.png) top right no-repeat} /* 고객센터 */
+#visual_box.visual_logincenter {height:60px;}
+
+#visual_box.visual_notice {background:url(../../../resources/web/img/visual/visual_notice_bg.jpg) top right no-repeat} /* 고객센터 */
+#visual_box.visual_homepageService {background:url(../../../resources/web/img/visual/visual_homepageService_bg.jpg) top right no-repeat} /* 소비자보호 */
+#visual_box.visual_reportGuide {background:url(../../../resources/web/img/visual/visual_reportGuide_bg.jpg) top right no-repeat} /* 소비자보호 */
+
+
+#visual_box.visual_corporation {background:url(../../../resources/web/img/visual/visual_contractManage_bg.jpg) top right no-repeat} /* 법인서비스 */
+
+
+
+#visual_box.visual_consumer {background-image:url(../../../resources/web/img/visual/visual_consumer_bg.png)} /* 소비자보호 */
+#visual_box.visual_creditConsumer {background-image:url(../../../resources/web/img/visual/visual_consumer_bg.png)} /* 소비자보호 */
+#visual_box.visual_finaneConsumer {background-image:url(../../../resources/web/img/visual/visual_consumer_bg.png)} /* 소비자보호 */
+
+#visual_box.visual_disclosure {background-image:url(../../../resources/web/img/visual/visual_disclosure_bg.png)} /* 공시실 */
+#visual_box.visual_carDisclosure {background-image:url(../../../resources/web/img/visual/visual_disclosure_bg.png)} /* 자동차보험공시 */
+#visual_box.visual_manageDisclosure {background-image:url(../../../resources/web/img/visual/visual_disclosure_bg.png)} /* 공시실 */
+#visual_box.visual_productDisclosure {background-image:url(../../../resources/web/img/visual/visual_disclosure_bg.png)} /* 공시실 */
+#visual_box.visual_protectDisclosure {background-image:url(../../../resources/web/img/visual/visual_disclosure_bg.png)} /* 보호 금융상품 등록부 */
+#visual_box.visual_priceDisclosure {background-image:url(../../../resources/web/img/visual/visual_disclosure_bg.png)} /* 가격공시 */
+#visual_box.visual_217 {background:url("../../../images/productImg/gradeHealth/bg_visual_217.png") no-repeat center top;}
+
+
+
