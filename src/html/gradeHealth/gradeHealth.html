@@ -22,7 +22,13 @@
 	<!--[if lte IE 9]>
 	<script type="text/javascript" src="/static/resources/web/js/pholder.js?1684134000"></script>
 	<![endif]-->
-	
+	<!-- 알아두실사항 -->
+    <script>
+		function toggleAccordion() {
+			var ol = document.querySelector('.dd ol.number');
+			ol.style.display = (ol.style.display === 'none') ? 'block' : 'none';
+		}
+	</script>
 	<title>무배당 하나  Grade 건강보험 | 하나손해보험</title>
 	
 	<script>
@@ -62,7 +68,7 @@
                     <div class="base_area">
                         <div class="section_box100" id="go_p1">
                             <div class="quick_left_01 big_h2 product_icon101">
-                                <a href="#go_p1"><h2>상품특징</h2></a>
+                                
                             </div>
                             <div class="product_title">
                                 <h2>
@@ -115,7 +121,7 @@
                         </div>
                         <div class="base_box sel_tb">
                             <table class="base_tb sel_tb product_tb">
-                                <caption>보장내용</caption>
+                                
                                 <colgroup>
                                     <col width="22%">
                                     <col width="*">
@@ -125,7 +131,7 @@
                                         <th class="tal">보험종류</th>
                                         <td class="tal">
                                             <table class="fl base_tb sel_tb product_tb small_tb">
-                                                <caption>보험종류</caption>
+                                                <!-- <caption>caption보험종류</caption> -->
                                                 <colgroup>
                                                     <col width="12%">
                                                     <col width="8%">
@@ -222,12 +228,12 @@
                         <div class="acc_group product_accordion">
                             <dl>					
                                 <dt>
-                                    <a href="javascript:void(0);" alt="">
+                                    <a href="javascript:void(0);" alt="" onclick="toggleAccordion();">
                                         <strong>해약환급금 미지급형에 관한 사항</strong>
                                     </a>
                                 </dt>
-                                <dd>
-                                    <ol>
+                                <dd class="dd";>
+                                    <ol class="number">
                                         <li>
                                             <span>01</span>
                                             해약환급금미지급형Ⅱ(2종)은 보험료 납입기간 중 계약이 해지될 경우 해약환급금을 지급하지 않는 대신 일반형(1종)보다 일반적으로 저렴하게 보험을 가입할 수 있도록 한 상품입니다. 다만, 보험료 납입기간이 완료된 이후 계약이 해지되는 경우에는 일반형(1종) 해약환급금의 50%를 지급합니다. 회사는 해약환급금미지급형Ⅱ(2종) 가입시 일반형(1종)의 보험료 및 해약환급금(환급률 포함) 수준을 비교·안내하여 드립니다.
@@ -239,8 +245,8 @@
                                         <strong>보험계약 체결 전 유의사항</strong>
                                     </a>
                                 </dt>
-                                <dd>
-                                    <ol>
+                                <dd class="dd";>
+                                    <ol class="number">
                                         <li>
                                             <span>01</span>
                                             보험계약 청약시 보험상품명, 보험기간, 보험료납입기간, 피보험자 등을 반드시 확인하시고, 보험약관을 반드시 수령, 설명 받으시기 바랍니다.
@@ -264,8 +270,8 @@
                                         <strong>피보험자의 동의, 무배당보험</strong>
                                     </a>
                                 </dt>
-                                <dd>
-                                    <ol>
+                                <dd class="dd";>
+                                    <ol class="number">
                                         <li>
                                             <span>01</span>
                                             피보험자 동의
@@ -289,8 +295,8 @@
                                         <strong>품질보증제도 및 청약철회제도</strong>
                                     </a>
                                 </dt>
-                                <dd>
-                                    <ol>
+                                <dd class="dd";>
+                                    <ol class="number">
                                         <li>
                                             <span>01</span>
                                             품질보증제도
@@ -313,8 +319,8 @@
                                         <strong>계약 전 알릴 의무, 보험료의 납입연체 및 계약해지</strong>
                                     </a>
                                 </dt>
-                                <dd>
-                                    <ol>
+                                <dd class="dd";>
+                                    <ol class="number">
                                         <li>
                                             <span>01</span>
                                             계약 전 알릴 의무
@@ -336,8 +342,8 @@
                                         <strong>계약 후 알릴 의무</strong>
                                     </a>
                                 </dt>
-                                <dd>
-                                    <ol>
+                                <dd class="dd";>
+                                    <ol class="number">
                                         <li>
                                             <span>01</span>
                                             계약을 맺은 후 보험의 목적에 아래와 같은 사실이 생긴 경우에는 계약자나 피보험자는 지체없이 서면으로 회사에 알리고 보험증권에 확인을 받아야 합니다.
@@ -362,8 +368,8 @@
                                         <strong>갱신형보장</strong>
                                     </a>
                                 </dt>
-                                <dd>
-                                    <ol>
+                                <dd class="dd";>
+                                    <ol class="number">
                                         <li>
                                             <span>01</span>
                                             갱신형보장
@@ -381,8 +387,8 @@
                                         <strong>해약환급금이 납입보험료보다 적은 이유</strong>
                                     </a>
                                 </dt>
-                                <dd>
-                                    <ol>
+                                <dd class="dd";>
+                                    <ol class="number">
                                         <li>
                                             <span>01</span>
                                             보험은 은행의 저축과 달리 위험보장과 함께 저축을 겸하는 제도로 보험계약자가 납부한 보험료의 일부는 위험보장에 사용되며, 일부는 회사운영에 관련한 비용으로 사용됩니다. 따라서 보험계약을 중도에 해약할 경우 지급되는 해약환급금은 납입한 보험료보다 적거나 또는 없을 수 있습니다.
@@ -394,8 +400,8 @@
                                         <strong>장애인전환특약에 관한 사항</strong>
                                     </a>
                                 </dt>
-                                <dd>
-                                    <ol>
+                                <dd class="dd";>
+                                    <ol class="number">
                                         <li>
                                             <span>01</span>
                                             소득세법에 따라 보장성보험 계약 중 피보험자(또는 수익자)가 세법상 장애인에 해당하는 계약인 경우 장애인전환특약을 통해 장애인전용보장성보험으로 전환되어 연말정산 시 세제혜택이 가능합니다.
@@ -415,8 +421,8 @@
                                         <strong>예금자보호 및 상담/분쟁/신고 안내</strong>
                                     </a>
                                 </dt>
-                                <dd>
-                                    <ol>
+                                <dd class="dd";>
+                                    <ol class="number">
                                         <li>
                                             <span>01</span>
                                             예금자보호안내

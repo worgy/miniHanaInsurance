@@ -25,16 +25,19 @@
 	
 	<title>하나 슬기로운 자녀생활보험(I) | 하나손해보험</title>
 	
-
+<!-- 내가 만든 자바  (알아두실 사항 순) -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
-	$(document).ready(function() {
-		// Add click event listener to the accordion headings
-		$('.acc_group.product_accordion dt a').click(function() {
-			// Toggle the visibility of the corresponding content
-			$(this).parent().next('dd').find('ol.number').slideToggle();
-		});
-	});
+
+
+	function toggleAccordion() {
+		var ol = document.querySelector('.dd ol.number');
+		if (ol.style.display === 'none') {
+			ol.style.display = 'block';
+		} else {
+			ol.style.display = 'none';
+		}
+	}
 </script>
 </head>
 <body>
@@ -239,7 +242,9 @@
 							<p class="unit_icon1 mt15">순수보장형 상품으로 보험계약 만기 시 지급하는 만기환급금이 없는 상품입니다.</p>
 						</dl>
 						<div class="text_cont_box mb20">
-							<h4 class="tcb_h1" role="heading" aria-level="4">담보별 상세설명</h4>
+							<h4 class="tcb_h1" role="heading" aria-level="4">담
+								
+								보별 상세설명</h4>
 						</div>
 						<table class="base_tb sel_tb product_tb" >
 						<caption></caption>
@@ -424,7 +429,35 @@
 						</table>
 					</div>
 				</div>
-				
+				<!-- 내가 만든 자바 버튼클릭 -->
+				<script>
+					// Get the list of tab links
+					const tabLinks = document.querySelectorAll('.tab_header a');
+
+					// Get the list of content divs
+					const divSteps = document.querySelectorAll('.divStep');
+
+					// Add click event listener to each tab link
+					tabLinks.forEach(tabLink => {
+						tabLink.addEventListener('click', function () {
+							// Remove the 'on' class from all tab links
+							tabLinks.forEach(link => link.classList.remove('on'));
+
+							// Hide all content divs
+							divSteps.forEach(divStep => divStep.style.display = 'none');
+
+							// Add the 'on' class to the clicked tab link
+							this.classList.add('on');
+
+							// Get the data-tab attribute value
+							const tabId = this.getAttribute('data-tab');
+
+							// Show the corresponding content div
+							const selectedDiv = document.getElementById(`divStep${tabId}`);
+							selectedDiv.style.display = 'block';
+						});
+					});
+				</script>
 				<div class="divStep" id="divStep02" style="display: none;">				
 					<div class="base_box sel_tb">
 						<dl class="fl wPc100 txtlist_group mt30">
@@ -572,35 +605,9 @@
 							</table>
 					</div>	
 				</div>
-				<!-- 자바 스크립트 테스트 버튼 -->
-				<script>
-					// Get the list of tab links
-					const tabLinks = document.querySelectorAll('.tab_header a');
-			
-					// Get the list of content divs
-					const divSteps = document.querySelectorAll('.divStep');
-			
-					// Add click event listener to each tab link
-					tabLinks.forEach(tabLink => {
-						tabLink.addEventListener('click', function () {
-							// Remove the 'on' class from all tab links
-							tabLinks.forEach(link => link.classList.remove('on'));
-			
-							// Hide all content divs
-							divSteps.forEach(divStep => divStep.style.display = 'none');
-			
-							// Add the 'on' class to the clicked tab link
-							this.classList.add('on');
-			
-							// Get the data-tab attribute value
-							const tabId = this.getAttribute('data-tab');
-			
-							// Show the corresponding content div
-							const selectedDiv = document.getElementById(`divStep${tabId}`);
-							selectedDiv.style.display = 'block';
-						});
-					});
-				</script>
+				
+
+				
 				<div class="btn_box mt20 mb50">
 					<a href="https://www.hanainsure.co.kr//download/prd?instype=15201&type=agree" class="btn btn_icon btn_arrow product_btn" id="lnk_agree" target="_blank">보험약관</a>
 					<a href="https://www.hanainsure.co.kr//download?a=acrobat" target="_blank" class="btn btn_icon btn_arrow acrobat_btn fr">아크로뱃 다운로드</a>
@@ -738,6 +745,8 @@
 				</div>			
 			</div>
 		</div>
+	
+	<!-- 내가 만든 자바  상품가격 버튼 -->
 	<script>
 	const tabLinks2 = document.querySelectorAll('.tab_header.tab2.ulHeaderBox2 a');
 	
@@ -1056,7 +1065,7 @@
 		</li> 
 	<@})@>
 	</ol>
-	</scrip>
+	</script>
 	
 	<script type="text/template" id="tmplSearchNoRes">
 	<div class="no_results">

@@ -1,3 +1,4 @@
+
 /* 2019-03-14 */
 @charset "utf-8";
 @import url("../reset.css");
@@ -2111,7 +2112,7 @@ background-repeat:no-repeat;
 .btn.product_btn:after {color:#009591;width:25px;text-align:right;}
 
 .btn.acrobat_btn {color:#555;border:1px solid #d6d6d6;padding:3px 9px 4px;background:#fff}
-.btn.acrobat_btn:after {content:'';width:25px;height:20px;text-align:right;background:url("../../images/productImg/accidentHealth/btn_acrobat.gif") no-repeat right center;vertical-align:-4px;}
+.btn.acrobat_btn:after {content:'';width:25px;height:20px;text-align:right;background:url("../../images/productImg/gradeHealth/btn_acrobat.gif") no-repeat right center;vertical-align:-4px;}
 .btn.acrobat_btn:hover,.btn.acrobat_btn:focus {border-color:#007e7b;}/* í™©ê¸ˆë¼ì§€ 2019-03-05 ìž„ìž¬í¥ ì ‘ê·¼ì„± ìˆ˜ì • */
 
 .td_btn {display:block;}
